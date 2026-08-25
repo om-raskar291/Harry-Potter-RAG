@@ -40,6 +40,21 @@ st.write(
 
 st.divider()
 
+# ============================================================
+# DISPLAY SOURCE DOCUMENT
+# ============================================================
+
+st.subheader("📖 Source Document")
+
+with st.expander("View Harry Potter Document", expanded=True):
+
+    with open("HarryPotterRag.txt", "r", encoding="utf-8") as file:
+        document_text = file.read()
+
+    st.markdown(document_text)
+
+st.divider()
+
 
 # ============================================================
 # GOOGLE GEMINI API KEY
