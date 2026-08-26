@@ -22,7 +22,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 st.set_page_config(
     page_title="Harry Potter RAG",
-    page_icon="📚",
+    page_icon="🪄",
     layout="centered"
 )
 
